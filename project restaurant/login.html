@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login</title>
+    <style>
+        body {
+            background-color: beige;
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: beige;
+            color: black;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        .login-box {
+            background-color: beige;
+            padding: 30px;
+            border: 2px solid rgb(129, 113, 113);
+            width: 350px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px #a09797 ;
+        }
+        .login-box h2 {
+            margin-bottom: 20px;
+        }
+        .form-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+           
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #9e8c8c;
+            border-radius: 3px;
+        }
+        .button-group {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .button-group button {
+            padding: 8px 15px;
+            border: 1px solid rgb(125, 116, 116);
+            border-radius: 3px;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: beige;
+        }
+        .button-group button:hover {
+            background-color: beige;
+        }
+        .footer {
+            background-color: beige;
+            color: black;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">login </div>
+
+    <!-- Login Form -->
+    <div class="container">
+        <form class="login-box">
+            <h2>Welcome to restaurant</h2>
+
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <a style="color: rgb(47, 47, 183);">forget password</a>
+
+            <div class="button-group">
+                <button type="submit">Login</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Copyrighted web page</p>
+        <p>@2025 @Srestaurant</p>
+    </div>
+
+</body>
+</html>
